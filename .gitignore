@@ -1,0 +1,21 @@
+# PowerShell
+*.ps1~
+*.psm~
+*.psd1~
+
+# Build output
+dist/
+*.exe
+*.dll
+
+# Logs
+logs/*.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

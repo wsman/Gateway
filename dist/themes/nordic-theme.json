@@ -1,0 +1,208 @@
+{
+  "name": "Nordic Theme",
+  "version": "1.0.0",
+  "description": "Nordic design system theme based on OpenDoge technology library",
+  "source": "OpenDoge/departments/technology/library/themes/nordic.css",
+  "designPrinciples": ["Hygge (舒适温馨)", "Lagom (恰到好处)", "负空间美学"],
+  
+  "colorPalette": {
+    "naturalWhites": {
+      "nordicWhite": "#FAFBFC",
+      "nordicSnow": "#F5F7F9",
+      "nordicFrost": "#EEF1F4",
+      "nordicMist": "#E4E8EC",
+      "nordicCloud": "#D1D7DE"
+    },
+    "naturalGrays": {
+      "nordicStone": "#9BA4AE",
+      "nordicGranite": "#6E7881",
+      "nordicSlate": "#4A5259",
+      "nordicCharcoal": "#2C3136",
+      "nordicNight": "#1A1D20"
+    },
+    "accentColors": {
+      "nordicPine": "#3D7A5F",
+      "nordicPineLight": "#E8F2EC",
+      "nordicPineHover": "#2D5A47",
+      "nordicFjord": "#4A6FA5",
+      "nordicFjordLight": "#E8EEF6",
+      "nordicFjordHover": "#3A5A8A"
+    },
+    "auroraColors": {
+      "auroraGreen": "#7FBC8C",
+      "auroraAmber": "#E4A853",
+      "auroraRose": "#D16B6B",
+      "auroraPurple": "#8B7EB8"
+    },
+    "woodTones": {
+      "nordicBirch": "#F5EDE4",
+      "nordicOak": "#D4C4B0",
+      "nordicWalnut": "#8B7355"
+    }
+  },
+  
+  "lightMode": {
+    "backgrounds": {
+      "primary": "#FAFBFC",
+      "secondary": "#F5F7F9",
+      "tertiary": "#EEF1F4",
+      "elevated": "#FFFFFF",
+      "inset": "#E4E8EC"
+    },
+    "text": {
+      "primary": "#2C3136",
+      "secondary": "#6E7881",
+      "tertiary": "#9BA4AE",
+      "inverse": "#FAFBFC"
+    },
+    "borders": {
+      "light": "#E4E8EC",
+      "normal": "#D1D7DE",
+      "strong": "#9BA4AE"
+    },
+    "accents": {
+      "primary": "#3D7A5F",
+      "hover": "#2D5A47",
+      "background": "#E8F2EC"
+    },
+    "status": {
+      "success": "#7FBC8C",
+      "warning": "#E4A853",
+      "error": "#D16B6B",
+      "info": "#4A6FA5"
+    }
+  },
+  
+  "darkMode": {
+    "backgrounds": {
+      "primary": "#1A1D20",
+      "secondary": "#2C3136",
+      "tertiary": "#4A5259",
+      "elevated": "#242830",
+      "inset": "#15181B"
+    },
+    "text": {
+      "primary": "#F5F7F9",
+      "secondary": "#D1D7DE",
+      "tertiary": "#9BA4AE",
+      "inverse": "#1A1D20"
+    },
+    "borders": {
+      "light": "#4A5259",
+      "normal": "#6E7881",
+      "strong": "#9BA4AE"
+    },
+    "accents": {
+      "primary": "#5A9E7B",
+      "hover": "#7AB896",
+      "background": "rgba(90, 158, 123, 0.15)"
+    },
+    "status": {
+      "success": "#8FCC9C",
+      "warning": "#F0BA6A",
+      "error": "#E08080",
+      "info": "#6A8FBF"
+    }
+  },
+  
+  "fonts": {
+    "primary": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+    "code": "'Consolas', 'Monaco', 'Courier New', monospace",
+    "sizes": {
+      "xs": 9,
+      "sm": 10,
+      "base": 11,
+      "lg": 12,
+      "xl": 14,
+      "2xl": 16,
+      "3xl": 18,
+      "4xl": 20
+    },
+    "weights": {
+      "light": 300,
+      "normal": 400,
+      "medium": 500,
+      "semibold": 600
+    }
+  },
+  
+  "spacing": {
+    "grid": 4,
+    "scale": {
+      "1": 4,
+      "2": 8,
+      "3": 12,
+      "4": 16,
+      "5": 20,
+      "6": 24,
+      "8": 32,
+      "10": 40,
+      "12": 48,
+      "16": 64,
+      "20": 80,
+      "24": 96
+    }
+  },
+  
+  "borderRadius": {
+    "none": 0,
+    "sm": 4,
+    "md": 8,
+    "lg": 12,
+    "xl": 16,
+    "2xl": 24,
+    "full": 9999
+  },
+  
+  "animations": {
+    "durations": {
+      "instant": 100,
+      "fast": 150,
+      "normal": 250,
+      "slow": 400,
+      "slower": 600
+    }
+  },
+  
+  "dashboard": {
+    "layout": {
+      "width": 230,
+      "headerHeight": 60,
+      "metricsGridHeight": 100,
+      "statusPanelHeight": 90,
+      "systemInfoHeight": 110,
+      "spacing": 10
+    },
+    "cards": {
+      "width": 110,
+      "height": 95,
+      "padding": 10,
+      "borderWidth": 1
+    },
+    "metrics": {
+      "historyPanelWidth": 100,
+      "historyPanelHeight": 20,
+      "memoryBarWidth": 110,
+      "memoryBarHeight": 8,
+      "maxHistoryPoints": 20
+    },
+    "performance": {
+      "updateIntervalMs": 5000,
+      "cacheDurationSec": 15,
+      "maxRetries": 3
+    },
+    "defaults": {
+      "memoryTotalMB": 16384,
+      "latencyBaseMs": 50,
+      "latencyVariationFactor": 2
+    },
+    "thresholds": {
+      "cpuWarning": 70,
+      "cpuCritical": 90,
+      "memoryWarning": 80,
+      "memoryCritical": 90,
+      "latencyWarning": 200,
+      "latencyCritical": 300
+    }
+  }
+}

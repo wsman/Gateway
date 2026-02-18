@@ -1,0 +1,8 @@
+{
+    "GatewayPort": 18789,
+    "ProjectPath": "D:\\Games\\openclaw",
+    "LogFilePath": "D:\\Users\\WSMAN\\Desktop\\Claude\\Gateway\\logs\\gateway.log",
+    "AutoStart": false,
+    "LogLevel": "Info",
+    "ThemePreference": "Nordic"
+}
